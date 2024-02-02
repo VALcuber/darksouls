@@ -1,4 +1,6 @@
 <?php
-echo 'hello';
-echo 'hello 2';
+    ini_set('display_errors', 1);       //  Отображаем все
+    ini_set('error_reporting', E_ALL);  //      ошибки
+
+    include("config.php");
 ?>
